@@ -1,0 +1,12 @@
+.pressOK-collapsible .title:hover {
+    cursor: pointer;
+}
+
+.pressOK-collapsible.closed .title {
+    padding-left: 1em;
+    background: url(arrows.png) no-repeat 0px 0px;
+}
+.pressOK-collapsible.open .title {
+    padding-left: 1em;
+    background: url(arrows.png) no-repeat 0px -41px;
+}
